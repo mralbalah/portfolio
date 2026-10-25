@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rashed Al-Balah · Portfolio</title>
+<meta name="description" content="Portfolio of Rashed Al-Balah, Full-Stack Developer & Digital Growth Lead: websites, admin dashboards, business systems, brand growth and 2D drafting.">
+<meta property="og:title" content="Rashed Al-Balah · Portfolio">
+<meta property="og:description" content="Websites, admin dashboards and business systems that bring in customers.">
+<meta property="og:image" content="assets/video/portfolio-reel-cover.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#F5F7F6;--card:#FFFFFF;--ink:#0B2A33;--muted:#3C4F56;--accent:#0F6E7C;--line:#D5E0E2;--hero:#0B2A33;--hero-ink:#F3F7F6;--hero-muted:#BFD8D5;--hero-accent:#7FD1DB}
+@media (prefers-color-scheme:dark){:root{--bg:#0E1F25;--card:#14303A;--ink:#EEF4F3;--muted:#B5C9CC;--accent:#7FD1DB;--line:#24444F;--hero:#081A20}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:400 18px/1.6 'DM Sans',system-ui,sans-serif}
+a{color:var(--accent)}
+h1,h2,h3{font-family:Sora,system-ui,sans-serif;line-height:1.15}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header{background:var(--hero);color:var(--hero-ink);padding:88px 0 72px}
+.eyebrow{font-size:14px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+header .eyebrow{color:var(--hero-accent)}
+header h1{font-size:clamp(44px,8vw,84px);margin:12px 0 16px}
+header p.lead{font-size:clamp(19px,2.4vw,24px);color:var(--hero-muted);max-width:760px}
+.links{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.links a{color:var(--hero-ink);border:1px solid #2E5562;border-radius:999px;padding:8px 18px;text-decoration:none;font-weight:500}
+.links a:hover{border-color:var(--hero-accent)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:-40px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px}
+.stat b{display:block;font:700 40px/1.1 Sora,sans-serif}
+.stat span{color:var(--muted);font-size:16px}
+section{padding:64px 0 0}
+section>h2{font-size:clamp(28px,4vw,40px);margin:8px 0 24px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.card h3{font-size:19px;margin-bottom:6px}
+.card p{color:var(--muted);font-size:16px}
+.case{display:grid;grid-template-columns:1.05fr 1fr;gap:36px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:32px;margin-bottom:24px}
+.case h3{font-size:clamp(24px,3vw,30px);margin:6px 0 10px}
+.case .meta{color:var(--muted);font-size:15px;margin-bottom:14px}
+.case p{color:var(--muted);margin-bottom:12px}
+.case ul{padding-left:20px;color:var(--muted);margin-bottom:14px}
+.case li{margin:4px 0}
+.case .tags{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 14px}
+.case .tags span{font-size:13px;font-weight:700;color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:3px 12px}
+.case figure img{width:100%;border-radius:12px;border:1px solid var(--line);background:#fff;display:block}
+.case figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+.big{font:700 clamp(72px,12vw,120px)/1 Sora,sans-serif;color:var(--accent)}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.gallery figure{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px}
+.gallery img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#fff;border-radius:10px;display:block}
+.gallery figcaption{font-size:15px;color:var(--muted);margin-top:8px}
+.reel{display:grid;grid-template-columns:360px 1fr;gap:36px;align-items:center}
+.reel video{width:100%;border-radius:20px;border:1px solid var(--line);background:#000}
+footer{margin-top:80px;background:var(--hero);color:var(--hero-muted);padding:56px 0}
+footer h2{color:var(--hero-ink);font-size:clamp(28px,4vw,40px);margin-bottom:12px}
+footer a{color:var(--hero-ink)}
+@media (max-width:860px){.stats,.cards{grid-template-columns:repeat(2,1fr)}.case,.reel{grid-template-columns:1fr}.reel video{max-width:360px}}
+@media (max-width:520px){.gallery{grid-template-columns:1fr}.case{padding:22px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow">Portfolio · 2026</p>
+    <h1>Rashed Al-Balah</h1>
+    <p class="lead">Full-Stack Developer &amp; Digital Growth Lead. I build websites, admin dashboards and business systems, and I make sure they bring in customers.</p>
+    <div class="links">
+      <a href="mailto:mralbalah@gmail.com">mralbalah@gmail.com</a>
+      <a href="https://codeline-studio.akgunbalah.workers.dev">CodeLine Studio</a>
+      <a href="https://github.com/mralbalah">GitHub</a>
+      <a href="#work">See the work ↓</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="stats">
+    <div class="stat"><b>25+</b><span>projects delivered</span></div>
+    <div class="stat"><b>13+</b><span>studio clients</span></div>
+    <div class="stat"><b>500+</b><span>clients &amp; visitors generated</span></div>
+    <div class="stat"><b>3+</b><span>years of development</span></div>
+  </div>
+
+  <section>
+    <p class="eyebrow">What I build</p>
+    <h2>One person for design, code and growth</h2>
+    <div class="cards">
+      <div class="card"><h3>Business websites</h3><p>Custom code, WordPress or Shopify, deployed on Cloudflare.</p></div>
+      <div class="card"><h3>Admin panels &amp; systems</h3><p>Dashboards, accounting and purchasing on one data model.</p></div>
+      <div class="card"><h3>Brand &amp; growth</h3><p>Identity, social media and campaigns that bring in clients.</p></div>
+      <div class="card"><h3>2D drafting</h3><p>Build-ready deck and house drawings in AutoCAD.</p></div>
+    </div>
+  </section>
+
+  <section id="work">
+    <p class="eyebrow">Selected work</p>
+    <h2>Case studies</h2>
+
+    <article class="case">
+      <div>
+        <p class="eyebrow">Dec 2024 – present · USA, remote</p>
+        <h3>The Royal Apparel, Inc.</h3>
+        <div class="tags"><span>Full-stack</span><span>Admin panel</span><span>Business systems</span></div>
+        <p>A US apparel brand needed one place to sell online and run the back office. As Design &amp; Web Team Lead, I built it as one system.</p>
+        <ul>
+          <li>Designed and built the official website and custom admin control panel</li>
+          <li>Built and maintain the financial accounting system</li>
+          <li>Purchasing: low stock creates a purchase order; receiving it restocks</li>
+          <li>Lead the design and web team; produce product ads with marketing</li>
+        </ul>
+        <p><a href="https://mralbalah.github.io/royal-apparel-demo/">Try the live demo →</a></p>
+      </div>
+      <figure><img src="assets/img/royal-apparel-dashboard.jpg" alt="Royal Apparel admin dashboard with sales chart and recent orders" loading="lazy"><figcaption>Admin dashboard from the public demo (sample data only).</figcaption></figure>
+    </article>
+
+    <article class="case">
+      <div>
+        <p class="eyebrow">Jan 2026 – present · Chief Marketing Officer</p>
+        <h3>Root &amp; Restore Nutrition Education</h3>
+        <div class="tags"><span>Growth</span><span>Website</span><span>Social media</span></div>
+        <p>The company needed a digital presence that brings in clients, not just a website. I own the site, every social channel and the brand look.</p>
+        <ul>
+          <li>Built and manage the company website</li>
+          <li>Run all social media channels and campaigns</li>
+          <li>Set brand direction, visual identity and print materials</li>
+        </ul>
+      </div>
+      <div><p class="big">500+</p><p style="color:var(--muted)">new clients and visitors brought in through the website, content and social campaigns.</p></div>
+    </article>
+
+    <article class="case">
+      <div>
+        <p class="eyebrow">Mar 2025 – present · Founder &amp; Lead Developer</p>
+        <h3>CodeLine Studio</h3>
+        <div class="tags"><span>Brand</span><span>Website</span><span>Cloudflare</span></div>
+        <p>A web and brand studio I founded and built from zero. I own the full cycle: discovery, UI/UX, development (custom, WordPress, Shopify), Cloudflare deployment and support.</p>
+        <ul>
+          <li>Studio brand: logo, business card and launch posts</li>
+          <li>Sales site with 3 packages and 3 monthly care plans</li>
+          <li>Google Sheets CMS, contact form and newsletter</li>
+        </ul>
+        <p><a href="https://codeline-studio.akgunbalah.workers.dev">Visit the studio →</a> · <a href="https://github.com/mralbalah/codeline-studio-website">Source on GitHub →</a></p>
+      </div>
+      <div class="stats" style="margin:0;grid-template-columns:1fr 1fr">
+        <div class="stat"><b>25+</b><span>projects delivered</span></div>
+        <div class="stat"><b>13+</b><span>clients</span></div>
+      </div>
+    </article>
+
+    <article class="case">
+      <div>
+        <p class="eyebrow">Internal tool · CodeLine Studio</p>
+        <h3>CodeLine HQ</h3>
+        <div class="tags"><span>Dashboard</span><span>Full-stack</span><span>Internal tools</span></div>
+        <p>The studio's operations dashboard for running clients and projects. A demo mode runs on sample data, so it can be shown publicly without client data.</p>
+        <p><a href="https://github.com/mralbalah/codeline-hq">Source on GitHub →</a></p>
+      </div>
+      <div></div>
+    </article>
+
+    <article class="case">
+      <div>
+        <p class="eyebrow">Apr – Oct 2026 · California, USA</p>
+        <h3>DeckLine Studio: deck &amp; house drafting</h3>
+        <div class="tags"><span>AutoCAD</span><span>2D drafting</span><span>Residential</span></div>
+        <p>9 build-ready drawing sets for homes in San Carlos, San Mateo, Burlingame, Belmont and Portola Valley.</p>
+        <ul>
+          <li>Existing and proposed site plans and house elevations</li>
+          <li>Framing plans, foundation plans and connection details</li>
+          <li>Drawn in AutoCAD from client files, measurements and photos</li>
+        </ul>
+        <p style="font-size:15px">Drafting only; structural engineering and permits are handled by licensed professionals.</p>
+      </div>
+      <figure><img src="assets/img/deckline-house-elevation.jpg" alt="North-east house elevation with a raised deck on posts" loading="lazy"><figcaption>North-east elevation with deck.</figcaption></figure>
+    </article>
+
+    <div class="gallery">
+      <figure><img src="assets/img/deckline-deck-elevations.jpg" alt="Proposed deck north and south elevations with stairs on a slope" loading="lazy"><figcaption>Proposed deck and stair on a sloped backyard.</figcaption></figure>
+      <figure><img src="assets/img/deckline-house-elevations.jpg" alt="North-west and south-east house elevations" loading="lazy"><figcaption>North-west and south-east elevations.</figcaption></figure>
+      <figure><img src="assets/img/deckline-framing-plan.jpg" alt="Deck framing plan showing joists, beams and posts" loading="lazy"><figcaption>Framing plan: joists, beams and posts.</figcaption></figure>
+      <figure><img src="assets/img/deckline-construction-details.jpg" alt="Construction details for ledger, blocking and railing connections" loading="lazy"><figcaption>Ledger, blocking and railing details.</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Earlier experience</p>
+    <h2>Print Now, Dubai · Software Developer</h2>
+    <p style="color:var(--muted);max-width:760px">Mar 2023 – Apr 2025. Designed, programmed and tested software applications to spec, built clear and attractive interfaces, and worked across teams to make operations more efficient.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">In 30 seconds</p>
+    <h2>The portfolio reel</h2>
+    <div class="reel">
+      <video src="assets/video/portfolio-reel.mp4" poster="assets/video/portfolio-reel-cover.jpg" controls playsinline muted preload="none"></video>
+      <p style="color:var(--muted)">A quick tour of the work above, made for Instagram, TikTok, YouTube Shorts and LinkedIn.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <h2>Hiring, or need a project built?</h2>
+    <p>Email <a href="mailto:mralbalah@gmail.com">mralbalah@gmail.com</a> · <a href="https://codeline-studio.akgunbalah.workers.dev">codeline-studio.akgunbalah.workers.dev</a> · <a href="https://github.com/mralbalah">github.com/mralbalah</a></p>
+    <p style="margin-top:8px">Remote · Worldwide · Arabic, English, Turkish</p>
+  </div>
+</footer>
+</body>
+</html>
